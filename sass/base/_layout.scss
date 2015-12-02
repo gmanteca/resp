@@ -79,8 +79,8 @@
   .column-9,
   .column-10,
   .column-11,
-  .column-12 { width: auto; }
-  .container { width: auto; }
+  .column-12 { width: 100%; }
+  .container { width: 100%; }
 }
 
 @media all and (max-width:$tablet-width) {

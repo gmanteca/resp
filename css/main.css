@@ -252,12 +252,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .column-10,
   .column-11,
   .column-12 {
-    width: auto;
+    width: 100%;
   }
 
   /* line 83, ../sass/base/_layout.scss */
   .container {
-    width: auto;
+    width: 100%;
   }
 }
 @media all and (max-width: 768px) {
