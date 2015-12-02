@@ -71,27 +71,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .container {
   max-width: 1200px;
   margin: 40px auto;
+  font-family: sans-serif;
 }
 
-/* line 5, ../sass/base/_layout.scss */
+/* line 6, ../sass/base/_layout.scss */
 .row,
 .column {
   box-sizing: border-box;
 }
 
-/* line 10, ../sass/base/_layout.scss */
+/* line 11, ../sass/base/_layout.scss */
 .row:after,
 .row:before {
   content: "";
   display: table;
 }
 
-/* line 16, ../sass/base/_layout.scss */
+/* line 17, ../sass/base/_layout.scss */
 .row:after {
   clear: both;
 }
 
-/* line 20, ../sass/base/_layout.scss */
+/* line 21, ../sass/base/_layout.scss */
 .column {
   position: relative;
   float: left;
@@ -101,128 +102,128 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*.column + .column {
   padding: 0 15px;
 }*/
-/* line 30, ../sass/base/_layout.scss */
+/* line 31, ../sass/base/_layout.scss */
 .offset-column-1 {
   margin-left: 6.86666666667%;
 }
 
-/* line 31, ../sass/base/_layout.scss */
+/* line 32, ../sass/base/_layout.scss */
 .offset-column-2 {
   margin-left: 15.3333333333%;
 }
 
-/* line 32, ../sass/base/_layout.scss */
+/* line 33, ../sass/base/_layout.scss */
 .offset-column-3 {
   margin-left: 23.8%;
 }
 
-/* line 33, ../sass/base/_layout.scss */
+/* line 34, ../sass/base/_layout.scss */
 .offset-column-4 {
   margin-left: 32.2666666667%;
 }
 
-/* line 34, ../sass/base/_layout.scss */
+/* line 35, ../sass/base/_layout.scss */
 .offset-column-5 {
   margin-left: 40.7333333333%;
 }
 
-/* line 35, ../sass/base/_layout.scss */
+/* line 36, ../sass/base/_layout.scss */
 .offset-column-6 {
   margin-left: 49.2%;
 }
 
-/* line 36, ../sass/base/_layout.scss */
+/* line 37, ../sass/base/_layout.scss */
 .offset-column-7 {
   margin-left: 57.6666666667%;
 }
 
-/* line 37, ../sass/base/_layout.scss */
+/* line 38, ../sass/base/_layout.scss */
 .offset-column-8 {
   margin-left: 66.1333333333%;
 }
 
-/* line 38, ../sass/base/_layout.scss */
+/* line 39, ../sass/base/_layout.scss */
 .offset-column-9 {
   margin-left: 74.6%;
 }
 
-/* line 39, ../sass/base/_layout.scss */
+/* line 40, ../sass/base/_layout.scss */
 .offset-column-10 {
   margin-left: 83.0666666667%;
 }
 
-/* line 40, ../sass/base/_layout.scss */
+/* line 41, ../sass/base/_layout.scss */
 .offset-column-11 {
   margin-left: 91.5333333333%;
 }
 
-/* line 41, ../sass/base/_layout.scss */
+/* line 42, ../sass/base/_layout.scss */
 .offset-column-12 {
   margin-left: 100%;
 }
 
-/* line 43, ../sass/base/_layout.scss */
+/* line 44, ../sass/base/_layout.scss */
 .column-1 {
   width: 6.86666666667%;
 }
 
-/* line 44, ../sass/base/_layout.scss */
+/* line 45, ../sass/base/_layout.scss */
 .column-2 {
   width: 15.3333333333%;
 }
 
-/* line 45, ../sass/base/_layout.scss */
+/* line 46, ../sass/base/_layout.scss */
 .column-3 {
   width: 23.8%;
 }
 
-/* line 46, ../sass/base/_layout.scss */
+/* line 47, ../sass/base/_layout.scss */
 .column-4 {
   width: 32.2666666667%;
 }
 
-/* line 47, ../sass/base/_layout.scss */
+/* line 48, ../sass/base/_layout.scss */
 .column-5 {
   width: 40.7333333333%;
 }
 
-/* line 48, ../sass/base/_layout.scss */
+/* line 49, ../sass/base/_layout.scss */
 .column-6 {
   width: 49.2%;
 }
 
-/* line 49, ../sass/base/_layout.scss */
+/* line 50, ../sass/base/_layout.scss */
 .column-7 {
   width: 57.6666666667%;
 }
 
-/* line 50, ../sass/base/_layout.scss */
+/* line 51, ../sass/base/_layout.scss */
 .column-8 {
   width: 66.1333333333%;
 }
 
-/* line 51, ../sass/base/_layout.scss */
+/* line 52, ../sass/base/_layout.scss */
 .column-9 {
   width: 74.6%;
 }
 
-/* line 52, ../sass/base/_layout.scss */
+/* line 53, ../sass/base/_layout.scss */
 .column-10 {
   width: 83.0666666667%;
 }
 
-/* line 53, ../sass/base/_layout.scss */
+/* line 54, ../sass/base/_layout.scss */
 .column-11 {
   width: 91.5333333333%;
 }
 
-/* line 54, ../sass/base/_layout.scss */
+/* line 55, ../sass/base/_layout.scss */
 .column-12 {
   width: 100%;
 }
 
 @media all and (max-width: 320px) {
-  /* line 57, ../sass/base/_layout.scss */
+  /* line 58, ../sass/base/_layout.scss */
   .offset-column-1,
   .offset-column-2,
   .offset-column-3,
@@ -238,7 +239,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-left: 0;
   }
 
-  /* line 70, ../sass/base/_layout.scss */
+  /* line 71, ../sass/base/_layout.scss */
   .column-1,
   .column-2,
   .column-3,
@@ -254,13 +255,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: auto;
   }
 
-  /* line 82, ../sass/base/_layout.scss */
+  /* line 83, ../sass/base/_layout.scss */
   .container {
     width: auto;
   }
 }
 @media all and (max-width: 768px) {
-  /* line 86, ../sass/base/_layout.scss */
+  /* line 87, ../sass/base/_layout.scss */
   .container {
     max-width: 768px;
   }
@@ -286,7 +287,8 @@ header .logo {
 /* line 6, ../sass/modules/_header.scss */
 header .store-header {
   display: inline-block;
-  font-family: sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 /* line 1, ../sass/modules/_content.scss */
