@@ -4,3 +4,17 @@ $desktop-width: 1024px;
 $base-width: 1200px;
 
 $font: sans-serif;
+
+// Color
+
+$main-color: #990000;
+$light-grey: #dedede;
+$grey: #888;
+
+// mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

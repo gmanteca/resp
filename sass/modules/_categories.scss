@@ -1,0 +1,16 @@
+.categories-content {
+  border: 1px solid $light-grey;
+  @include border-radius(10px);
+  padding: 10px;
+}
+
+.category {
+  margin: 5px 0;
+}
+
+.category:before {
+  //cat_icon
+}
+.category > a{
+  color: $main-color;
+}

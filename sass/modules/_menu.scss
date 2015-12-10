@@ -1,5 +1,11 @@
 .menu {
+  border-top: 1px solid gray;
+  border-bottom: 2px solid gray;
+
   .menu-item {
     display:inline-block;
+    margin: 5px 10px;
+
   }
+
 }

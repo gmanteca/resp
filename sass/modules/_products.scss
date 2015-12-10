@@ -1,3 +1,25 @@
 .products {
   display:inline-block;
+
+}
+
+.product {
+  border: 1px solid $light-grey;
+  @include border-radius(10px);
+  margin: 5px 0;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.product-image {
+  display:block;
+  max-width:100%;
+  max-height:100%;
+}
+
+.product-name > a {
+  font-weight:bold;
+  color: $main-color;
+  text-decoration: none;
+  padding: 5px;
 }
