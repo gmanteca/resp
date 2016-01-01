@@ -5,7 +5,10 @@
   .menu-item {
     display:inline-block;
     margin: 5px 10px;
-
+    a{
+      color: $main-color;
+      font-weight: bold;
+    }
   }
 
 }

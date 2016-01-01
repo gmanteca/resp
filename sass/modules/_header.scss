@@ -3,12 +3,21 @@ header {
   margin-bottom: 20px;
   .logo {
     display:inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
   }
   .store-header {
     display:inline-block;
-    font-size: 16pt;
+    font-size: 24pt;
     font-weight: bold;
-
+    margin-left: 20px;
   }
 
+}
+@media all and (max-width:$tablet-width) {
+  header{
+    display: block;
+    margin: 0 auto;
+  }
 }

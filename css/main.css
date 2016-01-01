@@ -277,6 +277,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: inline-block;
   margin: 5px 10px;
 }
+/* line 8, ../sass/modules/_menu.scss */
+.menu .menu-item a {
+  color: #990000;
+  font-weight: bold;
+}
 
 /* line 1, ../sass/modules/_products.scss */
 .products {
@@ -290,7 +295,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
-  margin: 5px 0;
+  margin: 0 0 10px 0;
   padding: 10px;
   vertical-align: top;
 }
@@ -347,14 +352,25 @@ header {
 /* line 4, ../sass/modules/_header.scss */
 header .logo {
   display: inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
 }
-/* line 7, ../sass/modules/_header.scss */
+/* line 10, ../sass/modules/_header.scss */
 header .store-header {
   display: inline-block;
-  font-size: 16pt;
+  font-size: 24pt;
   font-weight: bold;
+  margin-left: 20px;
 }
 
+@media all and (max-width: 768px) {
+  /* line 19, ../sass/modules/_header.scss */
+  header {
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* line 1, ../sass/modules/_content.scss */
 .content {
   margin: 20px 0;
@@ -366,7 +382,7 @@ footer {
 }
 /* line 3, ../sass/modules/_footer.scss */
 footer p {
-  color: #888;
+  color: grey;
   font-size: 10pt;
   margin: 10px;
 }
